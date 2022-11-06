@@ -1,0 +1,18 @@
+.thumbnail {
+    height: 200px;
+}
+
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cardContainer {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(5,120,120);
+    padding: 10px;
+}
+
+.cardContainer:hover {
+    box-shadow: 0px 0px 10px rgb(10,180,180);
+}

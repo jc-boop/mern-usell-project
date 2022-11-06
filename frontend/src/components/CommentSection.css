@@ -1,0 +1,30 @@
+.container-fluid{
+    margin-top: 1%;
+    padding: 30px;
+}
+
+.textColor{
+    color:rgb(65, 65, 65);
+    text-shadow:0.6px 0.6px 0.6px rgb(10, 180, 180);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    text-align: left;
+}
+
+.writeBody{
+    padding: 30px;
+}
+
+.comBody{
+    color:rgb(45, 45, 45);
+    text-shadow:0.1px 0.1px 0.1px rgb(10, 180, 180);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    box-shadow: 0px 0px 14px -7px rgb(60, 60, 60);
+    margin-top: 8px;
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

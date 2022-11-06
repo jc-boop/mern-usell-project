@@ -1,0 +1,123 @@
+/*c.w*/
+/*center the container, change font color, background color*/
+.editContainer{
+    box-shadow: 0px 0px 10px rgb(5, 120, 120);
+    width: max-content;
+    max-height: max-content;
+    padding: 20px;
+    position: relative;
+    border-radius: 30px;
+    border-width: 20px;
+    background:linear-gradient(to bottom, rgb(225,225,255) 5%, rgb(225, 255, 255) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 24px;
+}
+/*c.w*/
+
+.update {
+    box-shadow: 0px 10px 14px -7px rgb(0,80,80);
+    background:linear-gradient(to bottom, rgb(12, 200, 200) 5%, rgb(5, 120, 120) 100%);
+    background-color:rgb(5,120,120);
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(245, 245, 245);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-decoration:none;
+    border-color: rgb(0,80,80);
+    border-width: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-shadow:0px 1px 0px rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.update:hover {
+    background:linear-gradient(to bottom, rgb(5,120,120) 5%, rgb(20, 220, 220) 100%);
+    background-color:rgb(88, 143, 143);
+    color:rgb(255, 255, 255);
+    border-color: rgb(0,80,80);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.update:active {
+    position:relative;
+    top:0.5px;
+}
+
+
+
+.delete {
+    box-shadow: 0px 10px 14px -7px rgb(0,80,80);
+    background:linear-gradient(to bottom, rgb(12, 200, 200) 5%, rgb(5, 120, 120) 100%);
+    background-color:rgb(5,120,120);
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    /*changed the Target red to a more matching shade*/
+    color:rgb(230, 0, 100);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-decoration:none;
+    border-color: rgb(0,80,80);
+    border-width: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-shadow:0px 1px 0px rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.delete:hover {
+    background:linear-gradient(to bottom, rgb(5,120,120) 5%, rgb(20, 220, 220) 100%);
+    background-color:rgb(88, 143, 143);
+    color:rgb(230, 0, 100);
+    border-color: rgb(0,80,80);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.delete:active {
+    position:relative;
+    top:0.5px;
+}
+
+
+/* Fonts for the edit box*/
+.editHeaderText {
+    color:rgb(65, 65, 65);
+    text-shadow:1px 1px 1px rgb(10, 180, 180);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.editTextText {
+    color:rgb(45, 45, 45);
+    text-shadow:0.25px 0.25px 0.25px rgb(10, 180, 180);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

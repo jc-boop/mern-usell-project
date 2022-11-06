@@ -1,0 +1,93 @@
+.error-container {
+    background:linear-gradient(to bottom, rgb(230,230,250) 5%, rgb(200, 220, 220) 100%);
+    position: center;
+    height: max-content;
+    justify-content: center;
+}
+
+.error-container > h1 {
+    padding-top: 100px;
+    color: rgb(40, 40, 40);
+    text-align: center;
+    place-self: center;
+    text-shadow: -10px 10px 50px rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(240, 240, 240);
+    margin-top: -100px;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.error-container > p {
+    align-self: center;
+    width: auto;
+    margin-top: 0%;
+    justify-self:center;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: -1px 1px 30px rgb(240, 240, 240);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(240, 240, 240);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myErrorButton {
+    box-shadow: 0px 10px 14px -7px rgb(0,80,80);
+    background:linear-gradient(to bottom, rgb(12, 200, 200) 5%, rgb(5, 120, 120) 100%);
+    background-color:rgb(5,120,120);
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    position: inherit;
+    color:rgb(245, 245, 245);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-decoration:none;
+    border-color: rgb(0,80,80);
+    border-width: 0px;
+    margin-bottom: 5%;
+    margin-left: 42%;
+    margin-right: 2%;
+    place-self: center;
+    text-shadow:0px 1px 0px rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.myErrorButton:hover {
+    background:linear-gradient(to bottom, rgb(5,120,120) 5%, rgb(20, 220, 220) 100%);
+    background-color:rgb(88, 143, 143);
+    color:rgb(255, 255, 255);
+    border-color: rgb(0,80,80);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.myErrorButton:active {
+    position:relative;
+    top:0.5px;
+}
+
+.error-container > h0 {
+    font-family: 'Bangers';
+    position:relative;
+    background: linear-gradient(45deg, rgb(5, 120, 120), rgb(10, 180, 180));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    justify-self:left;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-bottom: 7px;
+    align-self: center;
+    text-decoration:none;
+    font-size: 100px;
+    align-items: right;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(80, 80, 80);
+  }

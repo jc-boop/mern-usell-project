@@ -1,0 +1,232 @@
+.hero-container {
+       background:url('http://localhost:4000/site_images/img-home.jpeg') center center/cover no-repeat;
+       height: 100vh;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+       object-fit: contain;
+   }
+   
+   .hero-container > h1 {
+       color: rgb(40, 40, 40);
+       text-shadow: -10px 10px 50px rgb(255, 255, 255);
+       font-size: 70px;
+       -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color:rgb(240, 240, 240);
+       margin-top: -100px;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   
+   .hero-container > p {
+       margin-top: 0px;
+       color:rgb(0, 0, 0);
+       font-size: 45px;
+       text-shadow: -1px 1px 30px rgb(240, 240, 240);
+       -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color:rgb(240, 240, 240);
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   
+   .searchbar-input {
+       color: rgb(80, 80, 80);
+       padding: 4px 60px 8px 10px;
+       border-radius: 2px;
+       box-shadow: 0px 10px 14px -7px rgb(60, 60, 60);
+       margin-right: 20px;
+       outline: none;
+       border: none;
+       font-size: 24px;
+       margin-top: 20px;
+       border: 1px solid rgb(20, 20, 20);
+       -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color:rgb(240, 240, 240);
+   }
+   
+   .searchbar-input::placeholder {
+       color: rgb(200, 200, 200);
+       justify-content: left;
+   }
+   
+   .headerText {
+       color:rgb(65, 65, 65);
+       text-shadow:1px 1px 1px rgb(10, 180, 180);
+       -webkit-text-stroke-width: 1.5px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+       margin-top: 2%;
+       margin-bottom: 2%;
+       font-size: 45px;
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   
+   .textText {
+       color:rgb(45, 45, 45);
+       text-shadow:0.25px 0.25px 0.25px rgb(10, 180, 180);
+       -webkit-text-stroke-width: 0.1px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+       margin-top: 8px;
+       font-size: 20px;
+       text-align: center;
+       align-items: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   
+   .textText:hover {
+       color:rgb(80, 80, 80);
+       text-shadow:0.25px 0.25px 0.25px rgb(10, 180, 180);
+       -webkit-text-stroke-width: 0.1px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+   }
+   
+   .myPage{
+       background:linear-gradient(to bottom, rgb(230,230,250) 5%, rgb(200, 220, 220) 100%);
+       position:relative;
+       height:fit-content;
+       padding-top: 1%;
+   }
+   
+   .myButton {
+       box-shadow: 0px 10px 14px -7px rgb(0,80,80);
+       background:linear-gradient(to bottom, rgb(12, 200, 200) 5%, rgb(5, 120, 120) 100%);
+       background-color:rgb(5,120,120);
+       border-radius:8px;
+       display:inline-block;
+       cursor:pointer;
+       color:rgb(245, 245, 245);
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size:20px;
+       font-weight:bold;
+       padding:13px 32px;
+       max-width: fit-content;
+       max-height: fit-content;
+       text-decoration:none;
+       border-color: rgb(0,80,80);
+       border-width: 0px;
+       margin-top: 2%;
+       margin-bottom: 2%;
+       margin-left: 2%;
+       margin-right: 2%;
+       text-shadow:0px 1px 0px rgb(0, 0, 0);
+       -webkit-text-stroke-width: 0.2px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+   }
+   .myButton:hover {
+       background:linear-gradient(to bottom, rgb(5,120,120) 5%, rgb(20, 220, 220) 100%);
+       background-color:rgb(88, 143, 143);
+       color:rgb(255, 255, 255);
+       border-color: rgb(0,80,80);
+       -webkit-text-stroke-width: 0.2px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+   }
+   .myButton:active {
+       position:relative;
+       top:0.5px;
+   }
+
+   .myButtonLarge {
+    box-shadow: 0px 10px 14px -7px rgb(0,80,80);
+    background:linear-gradient(to bottom, rgb(12, 200, 200) 5%, rgb(5, 120, 120) 100%);
+    background-color:rgb(5,120,120);
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(245, 245, 245);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    padding:13px 32px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-decoration:none;
+    border-color: rgb(0,80,80);
+    border-width: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-shadow:0px 1px 0px rgb(0, 0, 0);
+    /* Increaswed the outline for the large button */
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.myButtonLarge:hover {
+    background:linear-gradient(to bottom, rgb(5,120,120) 5%, rgb(20, 220, 220) 100%);
+    background-color:rgb(88, 143, 143);
+    color:rgb(255, 255, 255);
+    border-color: rgb(0,80,80);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+.myButtonLarge:active {
+    position:relative;
+    top:0.5px;
+}
+   
+   .myButton-light {
+       box-shadow: 0px 10px 14px -7px rgb(0,80,80);
+       background:linear-gradient(to bottom, rgb(160,240,240) 5%, rgb(120, 180, 180) 100%);
+       background-color:rgb(5,120,120);
+       border-radius:8px;
+       display:inline-block;
+       cursor:pointer;
+       color:rgb(245, 245, 245);
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size:20px;
+       font-weight:bold;
+       padding:13px 32px;
+       max-width: fit-content;
+       max-height: fit-content;
+       text-decoration:none;
+       border-color: rgb(0,80,80);
+       text-shadow:0px 1px 0px rgb(0, 0, 0);
+       border-width: 0px;
+       margin-top: 2%;
+       margin-bottom: 2%;
+       margin-left: 2%;
+       margin-right: 2%;
+       -webkit-text-stroke-width: 0.2px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+   }
+   .myButton-light:hover {
+       background:linear-gradient(to bottom, rgb(120, 180, 180) 5%, rgb(160, 240, 240) 100%);
+       background-color:rgb(88, 143, 143);
+       color:rgb(255, 255, 255);
+       -webkit-text-stroke-width: 0.2px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+       border-color: rgb(0,80,80);
+   }
+   .myButton-light:active {
+       position:relative;
+       top:0.5px;
+   }
+   
+   
+   @media screen and (max-width: 960px) {
+       .hero-container > h1 {
+           font-size: 70px;
+           margin-top: -150px;
+       }
+   }
+   
+   @media screen and (max-widthg: 768px) {
+       .hero-container > h1 {
+           font-size: 50px;
+           margin-top: -100px;
+       }
+   
+       .hero-container > p {
+           font-size: 30px;
+       }
+   
+       .btn-mobile {
+           display: block;
+           text-decoration: none;
+       }
+   
+       .btn {
+           width: 100%;
+       }
+   }
